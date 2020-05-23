@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ccf0887-6b45-4d59-8861-76b49b88fe55" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="global-result" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="global-result" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="global-result" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="global-result" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1btp9Sg0gHbB3QEttOFXnWPlBfe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/aya/patpat/GlobalResult" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\Projects\global-result-java\src\main\kotlin\aya\patpat\GlobalResult" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.global-result-java [jar]">
+    <configuration name="TestJava.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;aya.patpat.result.TestJava.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestKotlin.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;aya.patpat.result.TestKotlin.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="global-result-java [bintrayPublish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bintrayPublish" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="global-result-java [bintrayUpload]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bintrayUpload" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="global-result-java [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TestKotlin.test" />
+        <item itemvalue="Gradle.TestJava.test" />
+        <item itemvalue="Gradle.global-result-java [bintrayPublish]" />
+        <item itemvalue="Gradle.global-result-java [jar]" />
+        <item itemvalue="Gradle.global-result-java [bintrayUpload]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ccf0887-6b45-4d59-8861-76b49b88fe55" name="Default Changelist" comment="" />
+      <created>1589461092459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589461092459</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="803" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1589880591067">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="803" y="224" key="#com.intellij.ide.util.MemberChooser/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589880591067" />
+    <state x="612" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589880671319">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="612" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589880671319" />
+    <state x="778" y="294" key="FileChooserDialogImpl" timestamp="1590227769378">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="778" y="294" key="FileChooserDialogImpl/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1590227769378" />
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom" timestamp="1589890820084">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.bottom/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589890820084" />
+    <state width="1800" height="295" key="GridCell.Tab.0.center" timestamp="1589890820083">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.center/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589890820083" />
+    <state width="1800" height="295" key="GridCell.Tab.0.left" timestamp="1589890820083">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.left/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589890820083" />
+    <state width="1800" height="295" key="GridCell.Tab.0.right" timestamp="1589890820084">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="295" key="GridCell.Tab.0.right/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589890820084" />
+    <state width="1800" height="364" key="GridCell.Tab.1.bottom" timestamp="1589889300153">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="364" key="GridCell.Tab.1.bottom/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589889300153" />
+    <state width="1800" height="364" key="GridCell.Tab.1.center" timestamp="1589889300153">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="364" key="GridCell.Tab.1.center/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589889300153" />
+    <state width="1800" height="364" key="GridCell.Tab.1.left" timestamp="1589889300153">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="364" key="GridCell.Tab.1.left/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589889300153" />
+    <state width="1800" height="364" key="GridCell.Tab.1.right" timestamp="1589889300153">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state width="1800" height="364" key="GridCell.Tab.1.right/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589889300153" />
+    <state x="880" y="197" key="SettingsEditor" timestamp="1589890027685">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="880" y="197" key="SettingsEditor/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1589890027685" />
+    <state x="499" y="184" key="SettingsEditor/77.0.1843.1080/0.-1080.1920.1080@77.0.1843.1080" timestamp="1589463507674" />
+    <state x="373" y="139" key="new project wizard" timestamp="1590227781608">
+      <screen x="77" y="0" width="1843" height="1080" />
+    </state>
+    <state x="373" y="139" key="new project wizard/77.0.1843.1080/-1080.180.1080.1920@77.0.1843.1080" timestamp="1590227781608" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="((Success)result).msg" custom="aya.patpat.result.GlobalResult.Success" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
