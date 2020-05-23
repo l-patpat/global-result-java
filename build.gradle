@@ -28,12 +28,12 @@ compileTestKotlin {
 }
 
 group 'aya.patpat'
-version '0.0.1'
+version '0.0.1' // test branch
 
 publish {
     userOrg = 'l-patpat'
     groupId = "$group"
-    artifactId = 'global-result'
+    artifactId = 'global-result-test' // test branch
     publishVersion = "$version"
     desc = 'GlobalResult for java'
     website = 'https://github.com/l-patpat/global-result-java'
