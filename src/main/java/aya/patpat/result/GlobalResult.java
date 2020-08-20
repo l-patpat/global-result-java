@@ -5,11 +5,12 @@ public class GlobalResult {
     public static final String SUCCESS = "SUCCESS";
     public static final String FAILURE = "FAILURE";
     public static final String CANCEL = "CANCEL";
-    public static final String ERR_TIMEOUT = "ERR_TIMEOUT";
-    public static final String ERR_ABORT = "ERR_ABORT";
+    public static final String ABORT = "ABORT";
+    public static final String TIMEOUT = "TIMEOUT";
+    public static final String NOTHING = "NOTHING";
     public static final String ERR_INTERNAL = "ERR_INTERNAL";
     public static final String ERR_SERVER = "ERR_SERVER";
-    public static final String ERR_PARAMS_INVALID = "ERR_PARAMS_INVALID";
+    public static final String ERR_PARAMS = "ERR_PARAMS";
     public static final String ERR_NETWORK = "ERR_NETWORK";
 
     public long id = -1;
@@ -29,6 +30,10 @@ public class GlobalResult {
 
     public boolean isSuccess() {
         return SUCCESS.equals(getResult());
+    }
+
+    public boolean is(String result) {
+        return result != null && result.equals(this.result);
     }
 
     public static class Normal<T> extends GlobalResult {
@@ -60,13 +65,18 @@ public class GlobalResult {
     }
 
     public static class Abort extends GlobalResult {
-        public Abort() { super(CANCEL, "异常中止"); }
-        public Abort(String msg) { super(CANCEL, msg); }
+        public Abort() { super(ABORT, "异常中止"); }
+        public Abort(String msg) { super(ABORT, msg); }
     }
 
     public static class Timeout extends GlobalResult {
-        public Timeout() { super(ERR_TIMEOUT, "操作超时"); }
-        public Timeout(String msg) { super(ERR_TIMEOUT, msg); }
+        public Timeout() { super(TIMEOUT, "操作超时"); }
+        public Timeout(String msg) { super(TIMEOUT, msg); }
+    }
+
+    public static class Nothing extends GlobalResult {
+        public Nothing() { super(NOTHING, "空操作/空数据"); }
+        public Nothing(String msg) { super(NOTHING, msg); }
     }
 
     public static class ErrInternal extends GlobalResult {
@@ -79,9 +89,9 @@ public class GlobalResult {
         public ErrServer(String msg) { super(ERR_SERVER, msg); }
     }
 
-    public static class ErrParamsInvalid extends GlobalResult {
-        public ErrParamsInvalid() { super(ERR_PARAMS_INVALID, "参数无效"); }
-        public ErrParamsInvalid(String msg) { super(ERR_PARAMS_INVALID, msg); }
+    public static class ErrParams extends GlobalResult {
+        public ErrParams() { super(ERR_PARAMS, "参数无效"); }
+        public ErrParams(String msg) { super(ERR_PARAMS, msg); }
     }
 
     public static class ErrNetwork extends GlobalResult {
