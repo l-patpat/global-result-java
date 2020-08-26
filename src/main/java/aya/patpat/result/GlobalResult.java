@@ -45,57 +45,57 @@ public class GlobalResult {
     }
 
     public static class Success extends GlobalResult {
-        public Success() { super(SUCCESS, "²Ù×÷³É¹¦"); }
+        public Success() { super(SUCCESS, "æ“ä½œæˆåŠŸ"); }
         public Success(String msg) { super(SUCCESS, msg); }
     }
 
     public static class SuccessWith<T> extends Normal<T> {
-        public SuccessWith(T data) { super(data, SUCCESS, "²Ù×÷³É¹¦"); }
+        public SuccessWith(T data) { super(data, SUCCESS, "æ“ä½œæˆåŠŸ"); }
         public SuccessWith(T data, String msg) { super(data, SUCCESS, msg); }
     }
 
     public static class Failure extends GlobalResult {
-        public Failure() { super(FAILURE, "²Ù×÷Ê§°Ü"); }
+        public Failure() { super(FAILURE, "æ“ä½œå¤±è´¥"); }
         public Failure(String msg) { super(FAILURE, msg); }
     }
 
     public static class Cancel extends GlobalResult {
-        public Cancel() { super(CANCEL, "È¡Ïû"); }
+        public Cancel() { super(CANCEL, "å–æ¶ˆ"); }
         public Cancel(String msg) { super(CANCEL, msg); }
     }
 
     public static class Abort extends GlobalResult {
-        public Abort() { super(ABORT, "Òì³£ÖĞÖ¹"); }
+        public Abort() { super(ABORT, "å¼‚å¸¸ä¸­æ­¢"); }
         public Abort(String msg) { super(ABORT, msg); }
     }
 
     public static class Timeout extends GlobalResult {
-        public Timeout() { super(TIMEOUT, "²Ù×÷³¬Ê±"); }
+        public Timeout() { super(TIMEOUT, "æ“ä½œè¶…æ—¶"); }
         public Timeout(String msg) { super(TIMEOUT, msg); }
     }
 
     public static class Nothing extends GlobalResult {
-        public Nothing() { super(NOTHING, "¿Õ²Ù×÷/¿ÕÊı¾İ"); }
+        public Nothing() { super(NOTHING, "ç©ºæ“ä½œ/ç©ºæ•°æ®"); }
         public Nothing(String msg) { super(NOTHING, msg); }
     }
 
     public static class ErrInternal extends GlobalResult {
-        public ErrInternal() { super(ERR_INTERNAL, "ÄÚ²¿´íÎó"); }
+        public ErrInternal() { super(ERR_INTERNAL, "å†…éƒ¨é”™è¯¯"); }
         public ErrInternal(String msg) { super(ERR_INTERNAL, msg); }
     }
 
     public static class ErrServer extends GlobalResult {
-        public ErrServer() { super(ERR_SERVER, "·şÎñÆ÷¹ÊÕÏ"); }
+        public ErrServer() { super(ERR_SERVER, "æœåŠ¡å™¨æ•…éšœ"); }
         public ErrServer(String msg) { super(ERR_SERVER, msg); }
     }
 
     public static class ErrParams extends GlobalResult {
-        public ErrParams() { super(ERR_PARAMS, "²ÎÊıÎŞĞ§"); }
+        public ErrParams() { super(ERR_PARAMS, "å‚æ•°æ— æ•ˆ"); }
         public ErrParams(String msg) { super(ERR_PARAMS, msg); }
     }
 
     public static class ErrNetwork extends GlobalResult {
-        public ErrNetwork() { super(ERR_NETWORK, "ÍøÂç´íÎó"); }
+        public ErrNetwork() { super(ERR_NETWORK, "ç½‘ç»œé”™è¯¯"); }
         public ErrNetwork(String msg) { super(ERR_NETWORK, msg); }
     }
 }
