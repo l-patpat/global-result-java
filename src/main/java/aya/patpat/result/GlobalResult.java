@@ -7,6 +7,7 @@ public class GlobalResult {
     public static final String CANCEL = "CANCEL";
     public static final String ABORT = "ABORT";
     public static final String TIMEOUT = "TIMEOUT";
+    public static final String BUSY = "BUSY";
     public static final String NOTHING = "NOTHING";
     public static final String ERR_INTERNAL = "ERR_INTERNAL";
     public static final String ERR_SERVER = "ERR_SERVER";
@@ -72,6 +73,11 @@ public class GlobalResult {
     public static class Timeout extends GlobalResult {
         public Timeout() { super(TIMEOUT, "操作超时"); }
         public Timeout(String msg) { super(TIMEOUT, msg); }
+    }
+
+    public static class Busy extends GlobalResult {
+        public Busy() { super(BUSY, "操作忙"); }
+        public Busy(String msg) { super(BUSY, msg); }
     }
 
     public static class Nothing extends GlobalResult {
