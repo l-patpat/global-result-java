@@ -37,6 +37,10 @@ public class GlobalResult {
         return result != null && result.equals(this.result);
     }
 
+    public String toString() {
+        return String.format("{id: %d; result: \"%s\"; msg: \"%s\"}", id, result, msg);
+    }
+
     public static class Normal<T> extends GlobalResult {
         public T data = null;
         public Normal(T data, String result, String msg) {
